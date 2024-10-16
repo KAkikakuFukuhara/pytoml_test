@@ -1,0 +1,47 @@
+name = "config"
+num = 1
+str_num = "1"
+zero_num = "01"
+float = 1.2
+bool = true
+list = [ 1, 2, 3,]
+list2 = [ 4, 5, 6,]
+list3 = [ 7, 8, 9,]
+listinlist = [ [ 1, 2, 3,], [ 4, 5, 6,],]
+[[dictinlist]]
+a = "b"
+
+[[dictinlist]]
+c = "d"
+
+[[products]]
+name = "aaaa"
+
+[[products]]
+name = "bbbb"
+
+[dict]
+1 = 2
+2 = 3
+
+[listindict]
+a = [ 1, 2, 3,]
+b = [ 4, 5, 6,]
+
+[Human]
+name = "Taro"
+age = 18
+have = [ "ball", "pen",]
+
+[table-1]
+key = "test"
+
+[table-2]
+key = "test"
+
+[dictindict.a]
+b = "c"
+d = "e"
+
+[dictindict.A]
+B = "C"

@@ -1,0 +1,47 @@
+### 参考：https://qiita.com/minoritea/items/c0de47b8beb813c655d4
+# comment
+### 文字列
+name = "config"
+### 数値
+num = 1
+str_num = "1"
+zero_num = "01"
+### float
+float = 1.2
+### bool
+bool = true
+### リスト
+list = [1, 2, 3]
+list2 = [
+    4, 5, 6
+]
+list3 = [
+    7,
+    8,
+    9,
+]
+### 辞書
+# 辞書型のキーに数値をいれた場合strに変換されている
+dict = {1=2, "2"=3}
+### リストinリスト
+listinlist = [[1, 2, 3], [4, 5, 6]]
+### 辞書in辞書
+dictindict = {'a'={'b'='c', 'd'='e'}, 'A'={'B'='C'}}
+### リスト内辞書
+dictinlist = [{'a'='b'}, {'c'='d'}]
+### 辞書内リスト
+listindict = {'a'=[1, 2, 3], 'b'=[4, 5, 6]}
+### dot
+Human.name = "Taro"
+Human.age = 18
+Human.have = ["ball", "pen"]
+### table
+[table-1]
+key = "test"
+[table-2]
+key = "test"
+### inline-table
+[[products]]
+name = "aaaa"
+[[products]]
+name = "bbbb"

@@ -1,0 +1,11 @@
+[server]
+ip = "127.0.0.1"
+port = 12345
+
+[camera]
+name = "realsense"
+physical_port = "/sys/path"
+serial_no = "123456789"
+
+[ai]
+name = "far"

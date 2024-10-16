@@ -1,0 +1,20 @@
+# python
+__pycache__
+
+# venv
+.venv
+
+# pyenv
+.python-version
+
+# poetry
+poetry.lock
+
+# file
+*.toml
+
+# exception
+!pyproject.toml
+!pytoml_test/tools/config.toml
+!pytoml_test/tools/config-dst.toml
+!pytoml_test/tools/example_config.toml
